@@ -42,7 +42,7 @@ const ViewDownload = () => {
 
   return (
     <ResumeContext.Provider value={{resumeInfo , setResumeInfo}}>
-    <div className='px-2 py-6 sm:px-24 md:px-36 lg:px-56' l>
+    <div className='px-2 py-6 sm:px-24 md:px-36 lg:px-56' >
         {
             loader?(
                 <>

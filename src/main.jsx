@@ -7,7 +7,7 @@ import Signin from './pages/Signin'
 import Home from './pages/Home'
 import Dashboard from './pages/Dashboard'
 import { ClerkProvider } from '@clerk/clerk-react'
-import ResumeEdit from './pages/resumeEdit'
+import ResumeEdit from './pages/ResumeEdit'
 import { Toaster } from './components/ui/toaster'
 import ViewDownload from './pages/ViewDownload'
 
@@ -215,4 +215,7 @@ connnect gemeni with API KEY several imports and genearate prompt
 
     and JSON.parse it to normal object format      ....   and access response.summary key by .
 
+
+    deploy frontend - run npm run build   // .gitignore=env dist node modules
+    // npm run build npm run strat cmmnd auto done
 */
