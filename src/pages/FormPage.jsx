@@ -18,7 +18,7 @@ const FormPage = () => {
   return (
     <div>
     
-    <div className='flex justify-between'>
+    <div className='flex justify-between items-center'>
     <DropdownMenu >
   <DropdownMenuTrigger className='bg-black text-white flex items-center gap-3 '><IoGridOutline className='text-xl' />Theme</DropdownMenuTrigger>
   
@@ -33,7 +33,7 @@ const FormPage = () => {
 
 </DropdownMenu>
 
-    <div className='flex gap-4'>
+    <div className='flex gap-2'>
     <Button disabled={page==1} onClick={()=>{setPage(page-1)}}> <GrLinkPrevious /> Prev </Button>
     <Button type="submit" disabled={page==5} onClick={()=>{setPage(page+1)}}>Next <GrLinkNext /> </Button>
     </div>

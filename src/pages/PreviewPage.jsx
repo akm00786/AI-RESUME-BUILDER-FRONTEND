@@ -14,7 +14,7 @@ const PreviewPage = () => {
     <div className='shadow-lg'>
 
        <div className={ `h-8 w-full` } style={{backgroundColor:resumeInfo.themeColor}}></div>
-       <div className='p-10'>
+       <div className='p-1  sm:p-10'>
        
 
        <PersonalDetails />

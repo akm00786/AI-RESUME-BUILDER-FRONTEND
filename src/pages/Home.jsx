@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button'
-import { FaArrowRight, FaGithub, FaHeart, FaLinkedin, FaRegEdit } from "react-icons/fa";
+import { FaArrowRight, FaGithub, FaHeart, FaRegEdit } from "react-icons/fa";
 import { IoMdShare } from "react-icons/io";
 import { TbBrandReactNative } from "react-icons/tb";
 import React from 'react'
@@ -20,7 +20,7 @@ const Home = () => {
 
     <div className='mt-40'>
 
-    <h1 className='font-extrabold text-6xl '>Build Your Resume <span className='text-[#9F5BFF]'>With AI</span></h1>
+    <h1 className='text-center font-extrabold text-6xl  '>Build Your Resume <span className='text-[#9F5BFF]'>With AI</span></h1>
     <p className='text-center mt-8 mb-10 text-gray-500 text-xl'>Effortlessly Craft a Standout Resume with Our AI-Powered Builder</p>
     <div className='flex justify-center'>
     <Link to={'/dashboard'}><Button className='bg-[#9F5BFF]'>Get Started <FaArrowRight /></Button></Link>
@@ -32,7 +32,7 @@ const Home = () => {
      <h2 className='text-center text-4xl font-bold mt-20'>How it Works?</h2>
 
 
-     <div className='flex gap-8 mx-10  mt-14 mb-20  '>
+     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mx-10  mt-14 mb-20  '>
 
      <Card>
       <FaRegEdit className='ml-4 mt-4 text-3xl'/>
@@ -67,7 +67,7 @@ const Home = () => {
      <p className=' flex gap-4 justify-center items-center font-semibold text-xl mb-10'>Made with
      <FaHeart className='text-red-500' /> 
        by MD AKMAL   
-     <a href='https://github.com/MDAkmal0786' className='text-black text-2xl'><FaGithub/></a>
+     <a href='https://github.com/akm00786' className='text-black text-2xl'><FaGithub/></a>
      
       </p>
    

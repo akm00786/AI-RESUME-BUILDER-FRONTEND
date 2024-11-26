@@ -20,7 +20,7 @@ const Skills = () => {
           {
              resumeInfo?.skills?.length>0 && resumeInfo?.skills.map (
                   ( i )=>( 
-                    <div key={i.skillsId} className='flex justify-between items-center'>
+                    <div key={i.skillsId} className='flex justify-between gap-2 items-center'>
 
                    <p className='text-sm font-medium'>{i.name}</p>
                    {

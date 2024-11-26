@@ -55,6 +55,12 @@ const ViewDownload = () => {
                 </div>
                 <Skeleton className="h-[125px] rounded-xl" />
                 <Skeleton className="h-36 rounded-xl" />
+                <div className="space-y-2">
+                  <Skeleton className="h-16 " />
+                  <Skeleton className="h-28 " />
+                </div>
+                <Skeleton className="h-[125px] rounded-xl" />
+                <Skeleton className="h-36 rounded-xl" />
                 
               </div>
                 </>
@@ -62,8 +68,12 @@ const ViewDownload = () => {
              <>
              
              <div id='notMainPage'>
-             <h2 className=' flex gap-2 text-3xl font-bold mt-8 justify-center'> Congrats <span><LuPartyPopper/></span> Your AI generated Resume is Ready !</h2>
-             <p className='text-gray-500 text-center mb-10 '> Now you can Download and Share your resume with Anybody ! </p>
+
+             <h2 className='  gap-2 text-3xl font-bold mt-8  text-center'> <span style={{color: "#9F5BFF"}}>Congrats</span> # Your AI generated Resume is Ready!</h2>
+
+             <p className='text-gray-500 text-center mb-10 '> Now you can Download and Share your resume with Anybody! </p>
+
+
 
              <div className=' flex justify-between mb-6'>
               
